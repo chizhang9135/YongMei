@@ -1,0 +1,42 @@
+{
+  "wheels": [
+    {"style": "Wheel A", "costPrice": 10.05, "sellingPrice": 15.05},
+    {"style": "Wheel B", "costPrice": 11.25, "sellingPrice": 16.25},
+    {"style": "Wheel C", "costPrice": 12.50, "sellingPrice": 17.75},
+    {"style": "Wheel D", "costPrice": 13.40, "sellingPrice": 18.90},
+    {"style": "Wheel E", "costPrice": 14.30, "sellingPrice": 19.45},
+    {"style": "Wheel F", "costPrice": 15.60, "sellingPrice": 20.80}
+  ],
+  "handles": [
+    {"style": "Handle A", "costPrice": 5.00, "sellingPrice": 8.00},
+    {"style": "Handle B", "costPrice": 5.50, "sellingPrice": 8.75},
+    {"style": "Handle C", "costPrice": 6.00, "sellingPrice": 9.50},
+    {"style": "Handle D", "costPrice": 6.50, "sellingPrice": 10.25},
+    {"style": "Handle E", "costPrice": 7.00, "sellingPrice": 11.00},
+    {"style": "Handle F", "costPrice": 7.50, "sellingPrice": 11.75}
+  ],
+  "locks": [
+    {"style": "Lock A", "costPrice": 4.00, "sellingPrice": 6.50},
+    {"style": "Lock B", "costPrice": 4.30, "sellingPrice": 7.00},
+    {"style": "Lock C", "costPrice": 4.60, "sellingPrice": 7.50},
+    {"style": "Lock D", "costPrice": 4.90, "sellingPrice": 8.00},
+    {"style": "Lock E", "costPrice": 5.20, "sellingPrice": 8.50},
+    {"style": "Lock F", "costPrice": 5.50, "sellingPrice": 9.00}
+  ],
+  "linings": [
+    {"style": "Lining A", "costPrice": 3.00, "sellingPrice": 5.00},
+    {"style": "Lining B", "costPrice": 3.30, "sellingPrice": 5.50},
+    {"style": "Lining C", "costPrice": 3.60, "sellingPrice": 6.00},
+    {"style": "Lining D", "costPrice": 3.90, "sellingPrice": 6.50},
+    {"style": "Lining E", "costPrice": 4.20, "sellingPrice": 7.00},
+    {"style": "Lining F", "costPrice": 4.50, "sellingPrice": 7.50}
+  ],
+  "shells": [
+    {"style": "Shell A", "costPrice": 8.00, "sellingPrice": 12.00},
+    {"style": "Shell B", "costPrice": 8.50, "sellingPrice": 12.75},
+    {"style": "Shell C", "costPrice": 9.00, "sellingPrice": 13.50},
+    {"style": "Shell D", "costPrice": 9.50, "sellingPrice": 14.25},
+    {"style": "Shell E", "costPrice": 10.00, "sellingPrice": 15.00},
+    {"style": "Shell F", "costPrice": 10.50, "sellingPrice": 15.75}
+  ]
+}

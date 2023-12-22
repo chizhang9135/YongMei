@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Product Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="toolbar">
+    <button id="toggle-version">Switch to Internal Version</button>
+</div>
+
+<div id="public" class="product-builder">
+    <h2>Public Version</h2>
+    <select id="public-wheels" class="component-select" required>
+        <option value="" disabled selected>Select a wheel</option>
+    </select>
+    <select id="public-handles" class="component-select" required>
+        <option value="" disabled selected>Select a handle</option>
+    </select>
+    <select id="public-locks" class="component-select" required>
+        <option value="" disabled selected>Select a lock</option>
+    </select>
+    <select id="public-linings" class="component-select" required>
+        <option value="" disabled selected>Select a lining</option>
+    </select>
+    <select id="public-shells" class="component-select" required>
+        <option value="" disabled selected>Select a shell</option>
+    </select>
+    <div class="total-price-box" id="public-total-price">Total Public Price: </div>
+    <button onclick="calculateTotalPrice('public')">Calculate Public Price</button>
+    <button onclick="resetForm('public')">Reset</button>
+</div>
+
+<div id="internal" class="product-builder" style="display: none;">
+    <h2>Internal Version</h2>
+    <select id="internal-wheels" class="component-select" required>
+        <option value="" disabled selected>Select a wheel</option>
+    </select>
+    <select id="internal-handles" class="component-select" required>
+        <option value="" disabled selected>Select a handle</option>
+    </select>
+    <select id="internal-locks" class="component-select" required>
+        <option value="" disabled selected>Select a lock</option>
+    </select>
+    <select id="internal-linings" class="component-select" required>
+        <option value="" disabled selected>Select a lining</option>
+    </select>
+    <select id="internal-shells" class="component-select" required>
+        <option value="" disabled selected>Select a shell</option>
+    </select>
+    <div class="total-price-box" id="internal-total-price">Total Internal Cost: | Total Internal Price:</div>
+    <button onclick="calculateTotalPrice('internal')">Calculate Internal Price</button>
+    <button onclick="resetForm('internal')">Reset</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
